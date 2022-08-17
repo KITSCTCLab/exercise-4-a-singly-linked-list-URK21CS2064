@@ -130,4 +130,3 @@ solution = Solution()
 # Pass first_list and second_list to addTwoNumbers, which returns a new linked list
 ...
 
-[Message clipped]  View entire message
