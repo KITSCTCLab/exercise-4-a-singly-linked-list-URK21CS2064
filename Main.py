@@ -1,16 +1,4 @@
 
-Conversation opened. 1 unread message.
-
-Skip to content
-Using Karunya University Mail with screen readers
-
-1 of 1,267
-(no subject)
-Inbox
-
-SATHIYASEELAN J URK21CS2058 <sathiyaseelanj@karunya.edu.in>
-11:15 AM (5 minutes ago)
-to me
 
 from typing import Optional
 
@@ -19,7 +7,7 @@ class Node:
     """
     Provide necessary documentation
     """
-    def _init_(self, data=None, next=None):
+    def __init__(self, data=None, next=None):
         """
         Provide necessary documentation
         """
