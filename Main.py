@@ -1,5 +1,3 @@
-
-
 from typing import Optional
 
 
@@ -7,7 +5,7 @@ class Node:
     """
     Provide necessary documentation
     """
-    def __init__(self, data=None, next=None):
+    def _init_(self, data=None, next=None):
         """
         Provide necessary documentation
         """
@@ -128,5 +126,6 @@ for data in data_for_second_list:
 # Create an instance for Solution
 solution = Solution()
 # Pass first_list and second_list to addTwoNumbers, which returns a new linked list
-...
-
+new_list = solution.addTwoNumbers(first_list, second_list)
+# Display the status of new_list
+new_list.status()
